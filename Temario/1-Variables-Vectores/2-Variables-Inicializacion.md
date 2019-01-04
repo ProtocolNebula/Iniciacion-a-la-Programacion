@@ -24,6 +24,8 @@ var huevos = 0; // Inicializamos la variable con el valor 0
 console.log('Actualmente tenemos ' + huevos + ' huevos.');
 ```
 
+> Para "juntar" un texto (string) con variables lo hacemos "terminando" el texto y añadiendo un símbolo `+` seguido de la variable. A esto se le llama `concatenar`.
+
 Si ejecutamos el código (`node index.js`), lo primero que veremos será:
 ```
 Actualmente tenemos 0 huevos.
