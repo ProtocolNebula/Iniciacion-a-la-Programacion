@@ -22,3 +22,6 @@ Como se ha comentado, esto es un pequeño curso "express", para ampliar los cono
 - Tutoriales guiados (inglés) - permite hacer los ejemplos online
     - https://www.learn-js.org/
     - https://www.learn-c.org/
+- Material Institut Obert de Catalunya (En catalan):
+    - https://ioc.xtec.cat/educacio/cfgs-dam
+    - https://ioc.xtec.cat/educacio/cfgs-daw
