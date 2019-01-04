@@ -24,4 +24,4 @@ Algunos puntos pueden variar dependiendo del lenguaje o metodología de programa
 
 Nosotros trabajaremos con programación de `Tercera generación` o `scripting`.
 
-Al comienzo utilizaremos `javascript` con `nodejs`, posteriormente se explicará `C#` para `Unity` *(Motor de Videojuegos)*.
+Al comienzo utilizaremos `JavaScript` (no confundir con `Java`) con `nodejs`, posteriormente se explicará `C#` para `Unity` *(Motor de Videojuegos)*.

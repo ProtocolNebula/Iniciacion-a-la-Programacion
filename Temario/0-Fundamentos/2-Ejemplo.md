@@ -1,27 +1,60 @@
-# Fundamentos de la programación
+# Ejemplo - Fundamentos de la programación
 
-## Introducción al temario
-Dado que la programación es muy completa, se explicarán los conceptos más importantes para poder realizar una pequeña aplicación sin profundizar más de lo necesario.
+## Introducción al ejemplo
 
-Si quieres ampliar conocimientos, puedes encontrar información extensa en la [descripción del curso](/#Índice).
+El ejemplo descrito a continuación se utilizará como base para introducir los conceptos principales de la programación, lo iremos ampliando poco a poco.
 
-## Fundamentos
-Actualmente necesitamos saber pocas cosas para comenzar a programar.
+Utilizaremos el ejemplo de `La receta del Huevo Frito`, simularemos que el ordenador puede cocinar e informará al usuario de todas las acciones que hace.
 
-- El ordenador sigue una serie de instrucciones lógicas.
-- Las instrucciones se realizan en el mismo orden que están escritas.
-- El ordenador puede "tomar decisiones" (ramificar) si lo deseamos.
-- Las tareas que podemos programar se pueden simular en `papel` o indican la `toma de acciones`, por ejemplo:
-    - La resolución de problemas matemáticos utilizando las fórmulas paso a paso (resolución en `papel`).
-    - Un libro con toma de decisiones (como los libros infantiles).
-    - Un recetario de cocina:
-        - `Toma de decisiones`: El cocinero escoge una receta.
-        - `Toma de acciones`: El cocinero sigue paso a paso la receta escogida.
+Como es simplemente ejemplificativo no hará ninguna acción real (ni comprará de verdad - utilizando apis, claro, tampoco es un robot físico) ni hará ninguna acción fuera de su entorno `sandbox`.
 
-Algunos puntos pueden variar dependiendo del lenguaje o metodología de programación, algo que actualmente no nos debería preocupar.
 
-## Lenguaje de programacdión del curso
+## Diagrama de flujo
 
-Nosotros trabajaremos con programación de `Tercera generación` o `scripting`.
+**PENDIENTE DE REALIZACIÓN**
 
-Al comienzo utilizaremos `javascript` con `nodejs`, posteriormente se explicará `C#` para `Unity` *(Motor de Videojuegos)*.
+
+## Scripting
+
+### Preparando el entorno
+
+- Descargamos e instalamos:
+    - [Visual Studio Code](https://code.visualstudio.com/)
+    - [NodeJS](https://nodejs.org/es/) (última versión o LTS)
+- Creamos una carpeta (en el `escritorio` por ejemplo).
+- Dentro creamos una nueva carpeta llamada `1-cocinero`.
+- Abre `Visual Studio Code`.
+- Ves a `Archivo` -> `Abrir Carpeta/Directorio` y escoge `1-cocinero`.
+
+
+#### Importante sobre las carpetas y archivos
+
+Intenta utilizar unicamente:
+- Letras (sin tildes/acentos)
+- Guiones
+- Puntos (solo en archivos)
+
+Si puedes además `evita los espacios (" ")` para evitar problemas.
+
+**Ejemplo:** En lugar de escribir `Mi primer ejercicio genérico` escribe `mi-primer-ejercicio-generico` o `MiPrimerEjercicioGenerico`.
+
+### Añadiendo código
+
+A partir de ahora deberías mimetizarte con el editor `Visual Studio` para poder desarrollar comodamente, cuándo debas crear carpetas o archivos utiliza el `Explorador de Archivos` (el primer icono del menú izquierdo si lo tienes cerrado).
+
+- Crea un nuevo archivo llamado `index.js`
+- Pega siguiente código que encontrarás en el [ejemplo base](/Ejercicios/0-Fundamentos/1-cocinero/index.js).
+- Guarda el texto `Control + s`.
+- Abre un terminal (`Control + ñ` en Windows) y ejecuta `node index.js`
+
+Si lo has hecho todo bien, deberías ver varios mensajes por pantalla.
+
+### ¿Que está pasando?
+
+Si observamos bien el archivo `index.js` verás que:
+- Se utiliza `console.log('TEXTO');`, que simplemente muestra un mensaje en el terminal.
+- Se ejecutan todos los textos en el `mismo orden` que se han escrito.
+
+¡Con esto ya nos hemos introducido en el mundo de la programación!...
+
+Aunque no podamos hacer gran cosa con esto, `console.log` es algo que utilizaremos continuamente cuándo desarrollemos con `JavaScript` o sus alternativas en otros lenguajes.
