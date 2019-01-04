@@ -20,8 +20,10 @@ Actualmente necesitamos saber pocas cosas para comenzar a programar.
 
 Algunos puntos pueden variar dependiendo del lenguaje o metodología de programación, algo que actualmente no nos debería preocupar.
 
-## Lenguaje de programacdión del curso
+## Lenguaje de programación del curso
 
 Nosotros trabajaremos con programación de `Tercera generación` o `scripting`.
+
+Estos consiguen que la aplicación funcione en `cualquier ordenador` sin impotar el `Sistema Operativo` o `Hardware` que este tenga (si se cumplen los requisitos mínimos) siempre y cuándo exista un `Intérprete` para el equipo de destino.
 
 Al comienzo utilizaremos `JavaScript` (no confundir con `Java`) con `nodejs`, posteriormente se explicará `C#` para `Unity` *(Motor de Videojuegos)*.

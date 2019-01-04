@@ -11,6 +11,7 @@ El curso se irá actualizando poco a poco y se impartirá a través de Hangouts 
 ## Estructura del curso
 
 - [Temario](Temario/): Explicaciones con ejemplos sobre la programación. Se utilizará de base NodeJS (JavaScript) para la iniciación y se utilizará otro lenguaje en un futuro (posiblemente C# con Unity).
+- [Ejemplos](Ejemplos/): Ejemplos completados con lo explicado en el temario.
 - [Ejercicios](Ejercicios/): Ejercicios propuestos para ayudar a comprender el temario explicado.
 
 ## Enlaces recomendados

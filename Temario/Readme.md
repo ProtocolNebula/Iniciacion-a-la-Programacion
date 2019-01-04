@@ -4,7 +4,7 @@
 
 Esta sección contiene todo el temario impartido en el curso con ejemplos y explicaciones básicas.
 
-El temario se complementa con los `ejercicios` para explicaciones completas.
+El temario se complementa con los `ejercicios` y `ejemplos` para explicaciones completas.
 
 ## Aplicaciones necesarias
 

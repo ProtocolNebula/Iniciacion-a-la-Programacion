@@ -43,7 +43,7 @@ Si puedes además `evita los espacios (" ")` para evitar problemas.
 A partir de ahora deberías mimetizarte con el editor `Visual Studio` para poder desarrollar comodamente, cuándo debas crear carpetas o archivos utiliza el `Explorador de Archivos` (el primer icono del menú izquierdo si lo tienes cerrado).
 
 - Crea un nuevo archivo llamado `index.js`
-- Pega siguiente código que encontrarás en el [ejemplo base](/Ejercicios/0-Fundamentos/1-cocinero/index.js).
+- Pega siguiente código que encontrarás en el [ejemplo base](/Ejemplos/0-Fundamentos/1-cocinero/index.js).
 - Guarda el texto `Control + s`.
 - Abre un terminal (`Control + ñ` en Windows) y ejecuta `node index.js`
 
