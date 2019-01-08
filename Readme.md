@@ -14,6 +14,8 @@ El curso se irá actualizando poco a poco y se impartirá a través de Hangouts 
 - [Ejemplos](Ejemplos/): Ejemplos completados con lo explicado en el temario.
 - [Ejercicios](Ejercicios/): Ejercicios propuestos para ayudar a comprender el temario explicado.
 
+> Nótese que tanto los `Ejemplos`como `Ejercicios` se les especifica el número del `temario` en lugar de un órden propio.
+
 ## Enlaces recomendados
 
 Como se ha comentado, esto es un pequeño curso "express", para ampliar los conocimientos, personalmente recomiendo:

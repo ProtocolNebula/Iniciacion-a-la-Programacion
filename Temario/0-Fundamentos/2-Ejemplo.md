@@ -11,7 +11,7 @@ Como es simplemente ejemplificativo no hará ninguna acción real (ni comprará 
 
 ## Diagrama de flujo
 
-[diagrama-1]: ../Ejemplos/0-Fundamentos/2-cocinero/diagrama.jpg "Diagrama 1"
+[diagrama-1]: Ejemplos/0-Fundamentos/2-cocinero/diagrama.jpg "Diagrama 1"
 
 
 ## Scripting
@@ -22,9 +22,9 @@ Como es simplemente ejemplificativo no hará ninguna acción real (ni comprará 
     - [Visual Studio Code](https://code.visualstudio.com/)
     - [NodeJS](https://nodejs.org/es/) (última versión o LTS)
 - Creamos una carpeta (en el `escritorio` por ejemplo).
-- Dentro creamos una nueva carpeta llamada `1-cocinero`.
+- Dentro creamos una nueva carpeta llamada `2-cocinero`.
 - Abre `Visual Studio Code`.
-- Ves a `Archivo` -> `Abrir Carpeta/Directorio` y escoge `1-cocinero`.
+- Ves a `Archivo` -> `Abrir Carpeta/Directorio` y escoge `2-cocinero`.
 
 
 #### Importante sobre las carpetas y archivos
@@ -43,7 +43,7 @@ Si puedes además `evita los espacios (" ")` para evitar problemas.
 A partir de ahora deberías mimetizarte con el editor `Visual Studio` para poder desarrollar comodamente, cuándo debas crear carpetas o archivos utiliza el `Explorador de Archivos` (el primer icono del menú izquierdo si lo tienes cerrado).
 
 - Crea un nuevo archivo llamado `index.js`
-- Pega siguiente código que encontrarás en el [ejemplo base](/Ejemplos/0-Fundamentos/1-cocinero/index.js).
+- Pega siguiente código que encontrarás en el [ejemplo base](/Ejemplos/0-Fundamentos/2-cocinero/index.js).
 - Guarda el texto `Control + s`.
 - Abre un terminal (`Control + ñ` en Windows) y ejecuta `node index.js`
 

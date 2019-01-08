@@ -2,7 +2,7 @@
 
 ## Preparación del entorno
 
-Utilizaremos el ejemplo creado en `Fundamentos`, si no lo tenemos, podemos descargarlo de [ejemplo base](/Ejemplos/0-Fundamentos/1-cocinero/).
+Utilizaremos el ejemplo creado en `Fundamentos`, si no lo tenemos, podemos descargarlo de [ejemplo base](/Ejemplos/0-Fundamentos/2-cocinero/).
 
 ## Scripting
 
