@@ -2,7 +2,7 @@
 
 ## Preparación del entorno
 
-Utilizamos el archivo generado en [Operadores de Variables](/Ejemplos/1-Variables-Vectores/3-Variables-Operadores/).
+Utilizamos el archivo generado en [Operadores de Variables](/Ejemplos/1-Variables-Vectores/4-Variables-Texto.js).
 
 ## Introducción
 
