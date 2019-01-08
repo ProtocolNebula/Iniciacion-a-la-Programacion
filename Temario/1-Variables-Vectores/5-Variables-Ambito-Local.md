@@ -2,7 +2,7 @@
 
 ## IMPORTANTE
 
-Las variables de `ámbito local` son `exclusivas` de JavaScript (2014), en el resto de lenguajes podemos encontrarnos que:
+Las variables de `ámbito local` son `exclusivas` de JavaScript (desde 2014), en el resto de lenguajes podemos encontrarnos que:
 - Todas las variables son "globales"
 - Todas las variables son de ámbito local
 

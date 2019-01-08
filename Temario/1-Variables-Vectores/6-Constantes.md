@@ -1,50 +1,28 @@
-# Variables de Ámbito local
-
-## Preparación del entorno
-
-Utilizamos el archivo generado en [Operadores de Variables](/Ejemplos/1-Variables-Vectores/5-Variables-Ambito-Local.js).
+# Constantes
 
 ## Introducción
 
-Como se ha comentado, las variables pueden contener `textos`, vamos a crear una variable que contendrá el `nombre del cocinero`.
+Las constantes son bloques de memoria igual que las `variables` (*var* y *let*) pero que **no se pueden modificar** una vez declaradas.
+
+> Las constantes se comportan como `variables de ámbito local`, es decir `let`.
+
+Podemos definir una constante utilizando `const` seguido del nombre que queramos.
+
+```js
+const MI_CONSTANTE = 'Contenido de la constante';
+
+console.log(MI_CONSTANTE);
+```
+
+> Es buena práctica utilizar `mayúsculas` y separar las palabras con `guiones bajos _`).
 
 ## Scripting
+Descargaremos el archivo [Operadores de Variables](/Ejemplos/1-Variables-Vectores/6-Constantes.js) y lo ejecutaremos:
 
-### Iniciamos la variable
---------------------
-
-Al principio del código (encima de `huevos`), iniciaremos la variable: 
-
-```js
-// Instanciamos el nombre del cocinero
-var nombreCocinero;
+```bash
+node 6-Constantes.js
 ```
 
-> Como podemos observar, no se ha asignado ningún nombre todavía, si ahora hacemos un `console.log(nombreCocinero)` veremos que la variable está en estado `undefined`.
+Como podemos observar no se reemplazan las constantes ni se pueden leer en bloques padres del definido.
 
-
-### Asignando un nombre
---------------------
-
-> No hay problema en `instanciar` la variable `con valor` (`var nombreCocinero = 'Nombre'`);
-
-Vamos a asignar un nombre (por ahora asignado manualmente en el código), añadimos justo después del fragmento anterior:
-
-```js
-// Asignamos un cocinero
-nombreCocinero = 'Rubén';
-
-// Le damos la bienvenida
-console.log('¡Bienvenido de nuevo a la cocina ' + nombreCocinero + '!');
-console.log('Espero que no salga en llamas la cocina, otra vez.');
-
-```
-
-> Los textos deben ir entre comillas `simples` o `dobles`, al igual que lo hacíamos en el `console.log`.
-
-Si ejecutamos el script `node index.js` podemos ver el nombre del cocinero.
-
-
-> Para las `variables que no cambian` se utilizan `constantes`, generalmente no se utiliza (por ahora) `JavaScript` por temas de compatibilidad.
-
-> Las constantes se escriben (por estándar, no es obligatorio) en `mayúsculas` separadas por `barras bajas`. *EJ:* `const NOMBRE_COCINERO`
+> El bloque try-catch sirve para capturar errores y evitar que el programa pete, lo veremos más adelante.
