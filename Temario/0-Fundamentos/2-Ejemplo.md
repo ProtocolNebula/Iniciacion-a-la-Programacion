@@ -11,7 +11,7 @@ Como es simplemente ejemplificativo no hará ninguna acción real (ni comprará 
 
 ## Diagrama de flujo
 
-**PENDIENTE DE REALIZACIÓN**
+[diagrama-1]: ../Ejemplos/0-Fundamentos/2-cocinero/diagrama.jpg "Diagrama 1"
 
 
 ## Scripting
