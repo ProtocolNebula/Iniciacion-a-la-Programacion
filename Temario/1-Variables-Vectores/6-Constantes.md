@@ -1,8 +1,8 @@
-# Variables de Texto
+# Variables de Ámbito local
 
 ## Preparación del entorno
 
-Utilizamos el archivo generado en [Operadores de Variables](/Ejemplos/1-Variables-Vectores/3-Variables-Operadores/).
+Utilizamos el archivo generado en [Operadores de Variables](/Ejemplos/1-Variables-Vectores/5-Variables-Ambito-Local.js).
 
 ## Introducción
 
