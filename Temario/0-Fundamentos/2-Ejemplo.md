@@ -11,8 +11,11 @@ Como es simplemente ejemplificativo no hará ninguna acción real (ni comprará 
 
 ## Diagrama de flujo
 
-[diagrama-1]: /Ejemplos/0-Fundamentos/2-cocinero/diagrama.jpg "Diagrama 1"
+El ejemplo del huevo frito más básico.
 
+![Diagrama - Ejemplo básico del huevo frito](/Ejemplos/0-Fundamentos/2-cocinero/diagrama.jpg)
+
+> Podemos observar como se `conidiciona` el hecho de poder o no sacar el huevoo con un `rombo/cuadrado`
 
 ## Scripting
 
