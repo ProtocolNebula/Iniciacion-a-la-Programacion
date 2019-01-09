@@ -1,21 +1,24 @@
 # Vectores
 
+**ANTES DE SEGUIR:** Este tutorial está pensado para demostrar de forma rápida cosas que podemos hacer con `Vectores`.
+
+En este momento no tiene que preocuparte **entenderlo completamente**, solo saber que están ahí y que permiten una gran variedad de acciones en función de lo que `queramos resolver`. 
+
+> Recuerda que siempre te puedes utilizar cualquier motor de búsqueda si necesitas cosas que no recuerdas o son más complejas.
+
 ## Introducción
 
-A efectos prácticos, los `vectores` (`arrays`) son `variables` o `constantes` que "agrupan" más variables.
+A efectos prácticos, los `vectores` (`arrays`) o `arreglos` son `variables` o `constantes` que "agrupan" más variables.
 
 Esto nos es útil cuándo queremos tener listados de elementos (los cuales posteriormente podemos recorrer o hacer otras gestiones).
 
 Imaginemos que queremos tener un listado de `Ingredientes` que hacen falta para una receta, podemos tenerlos todos en una variable llamada `let ingredientes` en lugar de tener `let ingrediente1; let ingrediente2; ...`.
 
-## Ejemplo final
-
-> Archivo final disponible en [Vectores](/Ejemplos/1-Variables-Vectores/7-Vectores.js).
-
 
 ## Scripting
 
 Crearemos un archivo nuevo para el ejemplo llamado `7-Vectores.js`.
+
 
 ### Creamos un listado de ingredientes
 
@@ -67,3 +70,57 @@ console.log('Litado de ingredientes:', ingredientes);
 > Tanto `push` como `[]` nos ofrece el mismo resultado
 
 > Podemos ver la cantidad de ELEMENTOS que hay utilizando `miVector.length`. Este comienza desde **1** en lugar de **0** dado que nos indica la **CANTIDAD** de elementos que tiene, **no la POSICIÓN**.
+
+
+### Encontrar un índice
+
+Si no conocemos el índice del elemento al que queremos acceder, realizaremos una búsqueda con `.indexOf`.
+
+Esto demuestra que los `Vectores` (`Array`) en realidad son una variable del tipo `Objeto`.
+
+```js
+// Creamos una variable que contendrá el nuevo ingrediente
+let nuevoIngrediente = 'Azúcar';
+
+// Añadimos el ingrediente a la lista
+ingredientes.push(nuevoIngrediente);
+
+// Buscamos el nuevo ingrediente
+let indiceIngrediente = ingredientes.indexOf(nuevoIngrediente);
+console.log('La sal tiene el indice: ', indiceIngrediente);
+```
+
+
+### Eliminando posiciones
+
+Si queremos eliminar uno o varios elementos, utilizaremos `splice`.
+
+Esto creará un nuevo array eliminando el rango de indices seleccionados.
+
+```js
+// Eliminamos el azucar
+ingredientes = ingredientes.splice(indiceIngrediente, 1);
+``` 
+
+
+### Operaciones sobre vectores
+
+Recordemos que los vectores no son más que un conjunto de variables, lo que significa que podemos hacer operaciones con sus elementos, tanto `aritméticas` (con números) como de cadenas (strings) como `concatenar`.
+
+```js
+let dosPrimerosIngredientes = ingredientes[0] + '  ' + ingredientes[1];
+console.log('Los dos primeros ingredientes son: ' + dosPrimerosIngredientes);
+```
+
+### Transformando en Cadena y en Vector
+
+Por ejemplo, podemos convertir todos los elementos a un string o convertir un string a un array.
+
+```js
+// Convertimos el listado a un String, siendo ',' el elemento de unión (join).
+let stringIngredientes = ingredientes.join(',');
+console.log('Ingredientes en string:', stringIngredientes);
+console.log('Ingredientes DESDE string:', stringIngredientes.split(','));
+```
+
+Más adelante veremos como recorrer vectores para que sean realmente útiles.
