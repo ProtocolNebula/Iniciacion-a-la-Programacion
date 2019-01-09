@@ -6,6 +6,12 @@ Esta sección contiene todo el temario impartido en el curso con ejemplos y expl
 
 El temario se complementa con los `ejercicios` y `ejemplos` para explicaciones completas.
 
+## ¿Porqué JavaScript y sin tipado?
+
+La idea es explicar los **fundamentos** de la programación y, aunque contamos con el soporte de `TypeScript` he creído que lo mejor para comenzar a aprender es entender los `algoritmos`.
+
+> Una vez estén explicados los fundamentos, se añadirán los cursos para programación avanzada utilizando `C#`
+
 ## Aplicaciones necesarias
 
 Para la primera parte del curso necesitaremos tener instalados:
