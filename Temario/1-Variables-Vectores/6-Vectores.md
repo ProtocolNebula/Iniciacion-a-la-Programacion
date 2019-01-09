@@ -12,6 +12,8 @@ A efectos prácticos, los `vectores` (`arrays`) o `arreglos` son `variables` o `
 
 Esto nos es útil cuándo queremos tener listados de elementos (los cuales posteriormente podemos recorrer o hacer otras gestiones).
 
+Un `vector` puede contener cualquier tipo de `variable` u `objeto`, de hecho, en `JavaScript` (al igual que la mayoría de lenguajes de script) permite `diferentes tipos de elementos` a la vez, en otros lenguajes puede ser más complicado. 
+
 Imaginemos que queremos tener un listado de `Ingredientes` que hacen falta para una receta, podemos tenerlos todos en una variable llamada `let ingredientes` en lugar de tener `let ingrediente1; let ingrediente2; ...`.
 
 
