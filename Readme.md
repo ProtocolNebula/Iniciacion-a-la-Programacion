@@ -20,6 +20,9 @@ El curso se irá actualizando poco a poco y se impartirá a través de Hangouts 
 
 Como se ha comentado, esto es un pequeño curso "express", para ampliar los conocimientos, personalmente recomiendo:
 
+- VIDEOS EXPRÉS:
+    - ["Aprende a programar" en 11 minutos](https://www.youtube.com/watch?v=TAyyujKoY6k)
+
 - Iniciación a la programación (español):
     - https://informaticapc.com/teoria-de-la-programacion/
 - Tutoriales guiados (inglés) - permite hacer los ejemplos online
