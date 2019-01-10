@@ -16,7 +16,10 @@ La idea es explicar los **fundamentos** de la programación y, aunque contamos c
 
 Para la primera parte del curso necesitaremos tener instalados:
 - [Visual Studio Code](https://code.visualstudio.com/)
+    - [Atajos de teclado para VS Code](https://www.dofactory.com/reference/visual-studio-shortcuts) - Lectura muy recomendada.
 - [NodeJS](https://nodejs.org/es/) 8 o superior. *Recomendada la última versión `LTS` disponible.*
+- [Editor de diagramas Dia](https://sourceforge.net/projects/dia-installer/) OPCIONAL - Sólo por si quieres hacer o modificar los diagramas de flujo.
+
 
 ## Índice
 
