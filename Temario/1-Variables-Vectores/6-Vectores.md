@@ -93,15 +93,34 @@ console.log('La sal tiene el indice: ', indiceIngrediente);
 ```
 
 
+### Eliminando un elemento
+
+Esto vaciará la posición pero seguirá existiendo vacía en el Vector.
+
+Utilizar únicamente si realmente queremos esa posición vacía.
+
+```js
+delete ingredientes[indiceIngrediente];
+
+// Mostramos los ingredientes, veremos como pone <1 empty item> dónde antes estaba el elemento
+console.log(ingredientes);
+```
+
 ### Eliminando posiciones
 
 Si queremos eliminar uno o varios elementos, utilizaremos `splice`.
 
-Esto creará un nuevo array eliminando el rango de indices seleccionados.
+Esto realmente **eliminará** las posiciones indicadas.
+
+> IMPORTANTE: Esto devuelve los elementos ELIMINADOS, asi que no reasignar sobre el array correcto
 
 ```js
-// Eliminamos el azucar
-ingredientes = ingredientes.splice(indiceIngrediente, 1);
+// Eliminamos el azucar, recuerda no hacer ingredientes = ingredientes.splice(indiceIngrediente, 1); 
+// o perderás todo salvo lo que quieres borrar
+let ingredientesEliminados = ingredientes.splice(indiceIngrediente, 1);
+
+console.log('Ingredientes eliminados:', ingredientesEliminados);
+console.log('Ingredientes finales:', ingredientes);
 ``` 
 
 
