@@ -17,11 +17,11 @@ En realidad estamos comparando de la siguiente forma: `A AND B = 1`, `0 AND C = 
 | Operador | Nombre   | Acción que realiza                               |
 |:--------:|----------|--------------------------------------------------|
 | `&&`     | AND (Y)  | Comprueba que 2 operaciones sean `TRUE` (verdad) |
-| `| |`    | OR (O)   | CUALQUIERA de 2 operaciones sean `TRUE` (verdad) |
+| <code>&#124;&#124;</code>   | OR (O)   | CUALQUIERA de 2 operaciones sean `TRUE` (verdad) |
 | `!`      | NOT (NO) | Invierte el resultado de la operación            |
 --------------------------------------------------------------------------
 
-> `||` se escribe sin espacio, el espacio se ha añadido por el intérprete de `Markdown` utilizado en GitHub.
+> Si en la tabla ves `&#124;`, en realidad es `|` (`||`) pero no se está interpretando por el editor que utilizas.
 
 > Internamente se hace una comparación bit a bit del binario real, para más información mirar los anexos o buscar en internet, explicar esto se sale de la parte de "iniciación".
 
