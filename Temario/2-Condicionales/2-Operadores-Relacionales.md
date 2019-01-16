@@ -56,6 +56,24 @@ resultando `===` y `!==` para comparar tanto el `Contenido` como el `Tipo` de un
 que solo realizan la comparación si el `tipo` coincide, en caso contrario tiene que `convertir la información` a un `tipo común` (por ejemplo `string`)
 
 
+### Invertir Respuesta
+
+Como hemos comentado, evaluar una condición al final es comprobar si un `boolean` es `true` o `false` (el resultado de realizar la operación).
+
+Si añadimos `!` delante de la operación, el resultado se invertirá.
+
+```js
+var resultadOperacion = true; // Supongamos que esto es (5 > 1)
+
+if (resultadoOperacion) {
+    console.log('El resultado es TRUE');
+}
+if (!resultadoOperacion) {
+    console.log('El resultado con ! es FALSE, por eso no veremos el contenido');
+}
+```
+
+
 ## Ejemplos
 
 ### Comparadores de igualdad
