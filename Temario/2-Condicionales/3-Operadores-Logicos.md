@@ -4,6 +4,14 @@
 
 Normalmente, al realizar `operaciones condicionales` debemos comparar varios factores, una posible solución sería anidar if.
 
+Estos operadores sirven para comparar DOS resultados de operaciones por cada OPERADOR, siempre es `A` y `B` por cada lado.
+
+Es decir, podemos comparar A && B && C.
+
+En realidad estamos comparando de la siguiente forma: `A AND B = 1`, `0 AND C = 1` (hacemos el primer AND y posterior el siguiente AND).
+
+> El Operador de Negación sólo opera sobre UN elemento (un resultado), podríamos considerarlo la excepción.
+
 ## Listado de Operadores Lógicos
 
 | Operador | Nombre   | Acción que realiza                               |
@@ -12,6 +20,41 @@ Normalmente, al realizar `operaciones condicionales` debemos comparar varios fac
 | `||`     | OR (O)   | CUALQUIERA de 2 operaciones sean `TRUE` (verdad) |
 | `!`      | NOT (NO) | Invierte el resultado de la operación            |
 --------------------------------------------------------------------------
+
+> Internamente se hace una comparación bit a bit del binario real, para más información mirar los anexos o buscar en internet, explicar esto se sale de la parte de "iniciación".
+
+### Tabla de la verdad
+
+Dado que solo comparamos hasta dos lados, podemos generar la denominada `Tabla de la Verdad` (al final, estamos trabajando con `true` y `false`).
+
+#### Tabla de la verdad sobre AND (&&)
+
+| A         | AND |  B         | RESULTADO |
+|-----------|-----| -----------|-----------|
+| TRUE  `1` | AND |  TRUE  `1` | TRUE  `1` |
+| TRUE  `1` | AND |  FALSE `0` | FALSE `0` |
+| FALSE `0` | AND |  TRUE  `1` | FALSE `0` |
+| FALSE `0` | AND |  FALSE `0` | FALSE `0` |
+--------------------------------------------
+
+#### Tabla de la verdad sobre OR (||)
+
+| A         | OR |  B         | RESULTADO |
+|-----------|----| -----------|-----------|
+| TRUE  `1` | OR |  TRUE  `1` | TRUE  `1` |
+| TRUE  `1` | OR |  FALSE `0` | TRUE  `1` |
+| FALSE `0` | OR |  TRUE  `1` | TRUE  `1` |
+| FALSE `0` | OR |  FALSE `0` | FALSE `0` |
+--------------------------------------------
+
+#### Tabla de la verdad sobre NOT (!)
+
+| NOT |  A         | RESULTADO |
+|-----| -----------|-----------|
+| NOT |  TRUE  `1` | FALSE `0` |
+| NOT |  FALSE `0` | TRUE  `1` |
+--------------------------------
+
 
 ### Variaciones entre lenguajes
 
