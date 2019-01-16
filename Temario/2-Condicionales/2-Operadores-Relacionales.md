@@ -60,30 +60,10 @@ que solo realizan la comparación si el `tipo` coincide, en caso contrario tiene
 
 ### Comparadores de igualdad
 
-```js
-var idioma = 'Español';
+Descargaremos el archivo [Operadores Relacionales de Igualdad](/Ejemplos/2-Condicionales/2.1-Operadores-Relacionales-Igualdad.js) y lo ejecutaremos:
 
-// Se mostrará si SE HABLA ESPAÑOL
-if (idioma === 'Español') {
-    console.log('¡Bienvenido!');
-}
-
-// Se mostrará si NO SE HABLA ESPAÑOL
-if (idioma !== 'Español') {
-    console.log('Veo que no hablas español...');
-}
-
-// Se mostrará si SE HABLA INGLÉS
-if (idioma === 'English') {
-    console.log('Welcome!');
-}
-
-// Demostramos como podemos mostrar por pantalla el resultado de la "operación"
-console.log('El idioma es español?', idioma === 'Español');
-
-// También podríamos haberlo guardado en una booleana
-var esEspanol = idioma === 'Español';
-console.log('Comprobamos si es español desde variable', esEspanol);
+```bash
+node 2.1-Operadores-Relacionales-Igualdad.js
 ```
 
 > Un string también se puede comparar con `>` y `<`, al hacerlo estaremos comparando por orden `Alfabético` de cada letra.
@@ -94,31 +74,12 @@ console.log('Comprobamos si es español desde variable', esEspanol);
 Volvamos a la cocina, vamos a comprobar si tenemos suficientes huevos para hacer la receta,
 sino los tenemos añadiremos justo la cantidad que necesitamos.
 
-```js
-var huevos = 3;
-var huevosNecesarios = 6;
+Descargaremos el archivo [Operadores Relacionales Mayor y Menor](/Ejemplos/2-Condicionales/2.2-Operadores-Relacionales-Mayor-Menor.js) y lo ejecutaremos:
 
-// IMPORTANTE: si utilizamos >= veremos un mensaje que pondrá "hemos comprado 0 huevos", lo veremos en el próximo ejemplo
-if (huevosNecesarios > huevos) {
-    console.log('¡No tenemos suficientes huevos!');
-    let huevosFaltantes = huevosNecesarios - huevos;
-    huevos += huevosFaltantes;
-    console.log('Hemos comprado', huevosFaltantes, 'huevos.');
-}
-
-// Si aqui solo ponemos ">" y comenzamos con 3 huevos, no veríamos el mensaje.
-if (huevos >= huevosNecesarios) {
-    console.log('Tienes', huevos, 'huevos de los', huevosNecesarios, 'necesarios');
-}
-
-// Como podemos observar aquí (igual que el primer condicional)
-if (huevos > huevosNecesarios) {
-    console.log('¡Tienes más huevos de los necesarios!');
-}
-if (huevosNecesarios < huevos) {
-    console.log('Hemos comparado con `<` que tienes suficientes huevos.');
-}
+```bash
+node 2.2-Operadores-Relacionales-Mayor-Menor.js
 ```
+
 
 # Anexos
 https://www.ecured.cu/Operadores_l%C3%B3gicos
