@@ -14,6 +14,8 @@ Al final un operador es una `operación` (al igual que una suma o una resta) que
 
 ## Listado de operadores Relacionales
 
+Los operadores más comunes (y que más vamos a utilizar) son:
+
 | Operador | nombre               | ejemplo | significado                 |
 |:--------:|----------------------|:-------:|-----------------------------|
 | <        | menor que            | a<b     | a es menor que b            |
@@ -24,6 +26,7 @@ Al final un operador es una `operación` (al igual que una suma o una resta) que
 | >=       | mayor que o igual a  | a>=b    | a es menor que o igual a b  |
 ---------------------------------------------------------------------------
 
+> Para conocer todos los operadores, revisar los enlaces del `Anexo` al final del documento.
 
 ### Variaciones en otros lenguajes
 
@@ -118,5 +121,6 @@ if (huevosNecesarios < huevos) {
 ```
 
 # Anexos
+https://www.ecured.cu/Operadores_l%C3%B3gicos
 
 http://www.sc.ehu.es/sbweb/fisica/cursoJava/fundamentos/introduccion/operadores1.htm
