@@ -67,7 +67,7 @@ Este ejemplo se complica bastante con un simple IF, pero vamos a verlo para ver 
 
 ```js
 
-let GRUPO_USUARIO = 'ADMINISTRADOR';
+let GRUPO_USUARIO = 'EDITOR';
 let permisos = [];
 
 if (GRUPO_USUARIO === 'INVITADO') {

@@ -1,4 +1,4 @@
-let GRUPO_USUARIO = 16;
+let GRUPO_USUARIO = 'EDITOR';
 let permisos = [];
 
 switch (GRUPO_USUARIO) {

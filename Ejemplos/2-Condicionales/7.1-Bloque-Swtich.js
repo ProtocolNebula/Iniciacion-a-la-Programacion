@@ -2,9 +2,9 @@ let ingrediente = 'Huevo';
 
 let receta = '';
 
-// toLower convertirá "Huevo" a minúsculas, quedando "huevo".
+// toLowerCase convertirá "Huevo" a minúsculas, quedando "huevo".
 // Fijemonos que no hemos hecho ninguna comparación dentro del "switch" (aunque podríamos)
-switch (ingrediente.toLower()) {
+switch (ingrediente.toLowerCase()) {
     
     // Si el match (el "resultado" del switch) es "huevo"
     case 'huevo':
