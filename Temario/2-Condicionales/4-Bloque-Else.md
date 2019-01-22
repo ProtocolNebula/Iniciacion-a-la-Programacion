@@ -6,6 +6,8 @@ El bloque `else` nos permite capturar el flujo `if` en caso de que no coincida c
 
 Nótese que al igual que `if` significa `si` (condicional), `else` signfica `sino` (en caso contrario).
 
+---
+
 ## Ejemplos
 
 #### Método SIN Else
@@ -32,6 +34,7 @@ En aplicaciones más complejas, normalmente tenemos condiciones más largas (y b
 
 Por esto es importante entender `else`.
 
+---
 
 #### Ejemplo CON Else
 
