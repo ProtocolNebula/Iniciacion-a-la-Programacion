@@ -41,6 +41,8 @@ Por esto es importante entender `else`.
 Else no sólo permite reducir el código, sino que además lo hace más legible.
 
 ```js
+let interruptorEncendido = false;
+
 if (interruptorEncendido) {
     console.log('El interruptor está encendido');
 } else {

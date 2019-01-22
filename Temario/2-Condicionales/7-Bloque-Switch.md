@@ -11,6 +11,7 @@ Este tiene varias diferencias respecto a if:
 > El operador switch además permite "decisiones libres" en las cuales no vamos a entrar porque no es el objetivo del `switch`.
 
 `Switch` suele usarse para comprar valores `iguales` (`==` o `===`)
+
 ---
 
 ## Ejemplos
@@ -38,38 +39,13 @@ console.log('Receta: ' + receta);
 ```
 
 ----
+
 #### Ejemplo con Switch
 
-```js
-let ingrediente = 'Huevo';
+Descargaremos el archivo [Bloque Else If - Orden](/Ejemplos/2-Condicionales/7.1-Bloque-Swtich.js) y lo ejecutaremos:
 
-let receta = '';
-
-// toLower convertirá "Huevo" a minúsculas, quedando "huevo".
-// Fijemonos que no hemos hecho ninguna comparación dentro del "switch" (aunque podríamos)
-switch (ingrediente.toLower()) {
-    
-    // Si el match (el "resultado" del switch) es "huevo"
-    case 'huevo':
-        // Modificamos el valor de la variable del bloque padre
-        receta = 'Huevo frito';
-        break; // Forzamos la salida del switch
-    
-    case 'patata':
-        receta = 'Patatas al Horno';
-        break; // Forzamos la salida del switch
-
-    case 'lecuhga':
-        receta = 'Ensalada de verano';
-        break; // Forzamos la salida del switch
-    
-    // Como hemos forzado la salida en todos los case,
-    // solo entrará aquí si no se encuentra el ingrediente
-    default:
-        receta = 'No se ha encontrado ninguna receta';
-}
-
-console.log('Receta: ' + receta);
+```bash
+node 7.1-Bloque-Swtich.js
 ```
 
 Como podemos apreciar, queda bastate claro el código y es bastante más sencillo añadir condiciones.
@@ -120,42 +96,10 @@ Hay muchas formas de mejorar esto, vamos a ver por ejemplo con Switch (podríamo
 
 #### Ejemplo con switch
 
+Descargaremos el archivo [Bloque Else If - Orden](/Ejemplos/2-Condicionales/7.2-Bloque-Swtich-Match-Multiple.js) y lo ejecutaremos:
 
-```js
-let GRUPO_USUARIO = 16;
-let permisos = [];
-
-switch (GRUPO_USUARIO) {
-
-    // EN ESTE CASO DEBEMOS INVERTIR EL ORDEN (DE MAYOR PERMISIVIDAD A MENOR)
-
-    case 'ADMINISTRADOR':
-        // Añadimos unicamente los permisos ESPECIFICOS de administrador
-        permisos.push('ADMINISTRAR USUARIOS');
-        // NOTESE QUE NO HACEMOS BREAK;
-        // A partir de aqui ya no se comprobarán los "case", sino que se 
-        // EJECUTARÁ el contenido de estos
-    
-    case 'EDITOR':
-        permisos.push('EDITAR_NOTICIAS');
-        // Permisos específicos de EDITOR SIN BREAK
-
-    case 'MODERADOR':
-        permisos.push('MODERAR_COMENTARIOS');
-        // Permisos específicos de MODERADOR SIN BREAK
-
-    case 'INVITADO':
-        permisos.push('VER_NOTICIAS', 'COMENTAR');
-        // Permisos específicos de INVITADO CON BREAK
-        break; // Porque NO QUEREMOS EL DEFAULT
-
-    default:
-        console.error('Grupo no encontrado');
-        process.exit();
-}
-
-console.log('Un usuario ' + GRUPO_USUARIO + ' puede:');
-console.log(permisos);
+```bash
+node 7.2-Bloque-Swtich-Match-Multiple.js
 ```
 
 > No siempre el `switch` es mejor que el `if` ni viceversa, si bien es cierto generalmente se utiliza la estructura `if`.
