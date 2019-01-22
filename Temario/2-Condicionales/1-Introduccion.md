@@ -9,3 +9,7 @@ no esperemos que nustra aplicación tenga una `Inteligencia Artificial` que apre
 
 Las condiciones de código nos van a permitir realizar o dejar de realizar ciertas acciones para ajustarse al
 comportamiento deseado, como por ejemplo verificar datos del usuario.
+
+Nótese que `if` siginfica `si` (condicional). 
+
+> "Si tengo 5 manzanas, me puedo comer una en cada comida; Sino tendré que comprar.".
