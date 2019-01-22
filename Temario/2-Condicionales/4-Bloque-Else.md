@@ -2,7 +2,7 @@
 
 ## Introducción
 
-EL bloque `else` nos permite capturar el flujo `if` en caso de que no coincida con ninguna condición.
+El bloque `else` nos permite capturar el flujo `if` en caso de que no coincida con ninguna condición.
 
 Nótese que al igual que `if` significa `si` (condicional), `else` signfica `sino` (en caso contrario).
 
