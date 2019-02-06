@@ -19,6 +19,7 @@ Para la primera parte del curso necesitaremos tener instalados:
     - [Atajos de teclado para VS Code](https://www.dofactory.com/reference/visual-studio-shortcuts) - Lectura muy recomendada.
 - [NodeJS](https://nodejs.org/es/) 8 o superior. *Recomendada la última versión `LTS` disponible.*
 - [Editor de diagramas Dia](https://sourceforge.net/projects/dia-installer/) OPCIONAL - Sólo por si quieres hacer o modificar los diagramas de flujo.
+- [FreeDFD](https://mega.nz/#!ThwQgIZI!Vz1PmJV546uq2exp8dDcnV3p4D2g1AtjOpHPdp13Zcw) OPCIONAL - Diagramas de Flujo Dinámicos
 
 
 ## Índice
