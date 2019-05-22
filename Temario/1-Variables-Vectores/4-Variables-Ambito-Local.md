@@ -22,10 +22,10 @@ Podemos tener tantos niveles como queramos de bloques, pero si definimos las var
 
 ## Scripting
 
-Descargaremos el archivo [Operadores de Variables](/Ejemplos/1-Variables-Vectores/5-Variables-Ambito-Local.js) y lo ejecutaremos:
+Descargaremos el archivo [Operadores de Variables](/Ejemplos/1-Variables-Vectores/4-Variables-Ambito-Local.js) y lo ejecutaremos:
 
 ```bash
-node 5-Variables-Ambito-Local.js
+node 4-Variables-Ambito-Local.js
 ```
 
 Si prestamos atención al código veremos como no es posible acceder a las variables definidas dentro del bloque con `let` una vez salimos de éste.
