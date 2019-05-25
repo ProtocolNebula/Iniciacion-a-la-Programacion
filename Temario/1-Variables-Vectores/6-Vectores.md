@@ -19,7 +19,7 @@ Imaginemos que queremos tener un listado de `Ingredientes` que hacen falta para 
 
 ## Scripting
 
-Crearemos un archivo nuevo para el ejemplo llamado `7-Vectores.js`.
+Crearemos un archivo nuevo para el ejemplo llamado `6-Vectores.js`.
 
 
 ### Creamos un listado de ingredientes

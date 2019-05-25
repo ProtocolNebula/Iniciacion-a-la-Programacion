@@ -17,7 +17,7 @@ console.log(MI_CONSTANTE);
 > Es buena práctica utilizar `mayúsculas` y separar las palabras con `guiones bajos _`).
 
 ## Scripting
-Descargaremos el archivo [Operadores de Variables](/Ejemplos/1-Variables-Vectores/6-Constantes.js) y lo ejecutaremos:
+Descargaremos el archivo [Operadores de Variables](/Ejemplos/1-Variables-Vectores/5-Constantes.js) y lo ejecutaremos:
 
 ```bash
 node 6-Constantes.js
