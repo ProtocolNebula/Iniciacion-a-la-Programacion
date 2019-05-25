@@ -55,15 +55,15 @@ console.log('Ingrediente 2: ' + ingredientes[1]);
 
 ### Añadiendo elementos de forma dinámica
 
-¿Que pasa si queremos añadir más elementos? Pues tenemos varias opciones, por ejemplo, utilizar `.push()` o concatenar con `[]`.
+¿Que pasa si queremos añadir más elementos? Pues tenemos varias opciones, por ejemplo, utilizar `.push()`.
 
 Veamos un ejemplo con un array vacío (no es necesario que tenga ningún elemento antes de ser usado).
 
 ```js
 let ingredientes = []; // No pasa nada si ya hay algún elemento
 
-ingredientes[] = 'Sal'; // Añadimos con concatenación
 ingredientes.push('Huevo'); // Añadimos utilizando la función push
+ingredientes.push('Sal', 'Pimienta'); // Añadimos dos ingredientes más (usando un solo push)
 
 console.log('Total de ingredientes:', ingredientes.length);
 console.log('Litado de ingredientes:', ingredientes);
