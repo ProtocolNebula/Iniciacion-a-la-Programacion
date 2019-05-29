@@ -6,7 +6,7 @@ Imaginemos un caso bastante común:
 
 Tenemos una variable que debe tener un valor u otro (true/false, strings, números...) en función de una condición.
 
-Para casos cortos (`if-else` de poca lingutd) podemos utilizar condiciones ternarias.
+Para casos cortos (`if-else` de poca longitud) podemos utilizar condiciones ternarias.
 
 
 ## Ejemplos

@@ -25,11 +25,11 @@ Supongamos que tenemos un ingrediente y queremos más información sobre éste.
 let ingrediente = 'huevo';
 let receta = '';
 
-if (ingredietne === 'huevo') {
+if (ingrediente === 'huevo') {
     receta = 'Huevo frito';
-} else if (ingredietne === 'huevo') {
+} else if (ingrediente === 'huevo') {
     receta = 'Patatas al Horno';    
-} else if (ingredietne === 'huevo') {
+} else if (ingrediente === 'huevo') {
     receta = 'Ensalada de verano';
 } else {
     receta = 'No se ha encontrado ninguna receta';
